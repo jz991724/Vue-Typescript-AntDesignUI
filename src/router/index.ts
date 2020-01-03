@@ -5,12 +5,21 @@ import Home from "../views/Home.vue";
 Vue.use(VueRouter);
 
 const routes = [
-    {
-        path: "/",
-        name: "Index",
-        component: () => import("../views/Index.vue")
-    }
-];
+        {
+            path: "/less01",
+            name: "LessLearn01",
+            component: () => import("../views/LessLearn01.vue")
+        }, {
+            path: "/less02",
+            name: "LessLearn02",
+            component: () => import("../views/LessLearn02.vue")
+        }, {
+            path: "/less03",
+            name: "LessLearn03",
+            component: () => import("../views/LessLearn03.vue")
+        }
+    ]
+;
 
 const router = new VueRouter({
     mode: "history",
