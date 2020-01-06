@@ -17,7 +17,22 @@ const routes = [
             path: "/less03",
             name: "LessLearn03",
             component: () => import("../views/LessLearn03.vue")
-        }
+        },
+        {
+            path: "/less04",
+            name: "LessLearn04",
+            component: () => import("../views/LessLearn04.vue")
+        },
+        {
+            path: "/less05",
+            name: "LessLearn05",
+            component: () => import("../views/LessLearn05.vue")
+        },
+    {
+        path: "/less06",
+        name: "LessLearn06",
+        component: () => import("../views/LessLearn06.vue")
+    }
     ]
 ;
 

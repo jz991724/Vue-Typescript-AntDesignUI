@@ -5,7 +5,10 @@
 <!--              <router-link to="/about">About</router-link>-->
                 <router-link to="/less01">lessLearn01</router-link> |
                 <router-link to="/less02">lessLearn02</router-link> |
-                <router-link to="/less03">lessLearn03</router-link>
+                <router-link to="/less03">lessLearn03</router-link> |
+                <router-link to="/less04">lessLearn04</router-link> |
+                <router-link to="/less05">lessLearn05</router-link> |
+                <router-link to="/less06">lessLearn06</router-link>
             </div>
         <router-view/>
     </div>
